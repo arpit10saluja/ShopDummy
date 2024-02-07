@@ -36,7 +36,7 @@ export default function Navbar() {
       </Box>
 
       <Box display={["none", "none", "flex"]} flexWrap="wrap" gap={["10px", "20px"]}>
-        <Link to={"/login"}>
+        <Link to={"/signup"}>
           <Button>Log in / Sign Up</Button>
         </Link>
         <Link to={"/cart"}>
@@ -63,7 +63,7 @@ export default function Navbar() {
         p="4"
         bg="white"
       >
-        <Link to={"/login"}>
+        <Link to={"/signup"}>
           <Button onClick={onToggle}>Log in / Sign Up</Button>
         </Link>
         <Link to={"/cart"}>
